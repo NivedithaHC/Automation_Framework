@@ -16,6 +16,8 @@ public void test1() throws InterruptedException
 	String title=driver.getTitle();
 	Assert.assertEquals(title, "Facebook – log in or sign up");
 	System.out.println(1);
+	
+	//thread.sleep(2000);
 }
 }
 
